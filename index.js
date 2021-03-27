@@ -79,4 +79,4 @@ http.createServer(function (request, response) {
     }
     else response.end('404 Not Found');
 
-}).listen(process.env.port || 3000);
+}).listen( process.env.PORT || 3000);
