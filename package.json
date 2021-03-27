@@ -1,0 +1,19 @@
+{
+  "name": "dungnguyen",
+  "version": "1.0.0",
+  "description": "hi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dung2509/Test3.git"
+  },
+  "author": "Dung NGuyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dung2509/Test3/issues"
+  },
+  "homepage": "https://github.com/Dung2509/Test3#readme"
+}

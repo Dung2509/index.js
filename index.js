@@ -46,7 +46,7 @@ http.createServer(function (request, response) {
             'Thong tin muon ghi vao',
             function (error){
                 if (error == null){
-                    response.end("Tao file thanh cong");
+                    response.end("Update thanh cong");
                 }else {
                     response.end(error);
                 }
@@ -79,4 +79,4 @@ http.createServer(function (request, response) {
     }
     else response.end('404 Not Found');
 
-}).listen(9999);
+}).listen(process.env.port || 9999);
